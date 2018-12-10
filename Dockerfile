@@ -33,3 +33,4 @@ RUN strip sandstorm-http-bridge
 
 FROM debian:testing-slim
 COPY --from=builder sandstorm-http-bridge /
+
